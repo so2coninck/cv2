@@ -1,0 +1,251 @@
+/* Colors and Fonts */
+/* utile */
+body{
+  background-color: #EDEFF0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #EDEFF0;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  color: #EDEFF0;
+  font-size: 38px;
+}
+.container-fluid{
+  width: 100%;
+  margin: 30px auto;
+}
+.card-description{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.card-cv{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.card-banner{
+  background: white;
+  padding: 80px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(-100deg, rgba(30,30,30,0.4) 0%, rgba(30,30,30
+    ,0.4) 60%), url("startup-photos.jpg");
+  background-size: cover;
+}
+
+.card-image{
+  width: 150px;
+  height: 150px;
+  border: 5px solid #EDEFF0;
+  background: url("photo_profil.png");
+  border-radius: 50%;
+  margin-top: -78px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EDEFF0;
+  background-size: cover;
+  background-position : center center;
+}
+
+.text-center{
+  text-align: center;
+}
+.row {
+border:1px solid black;
+padding-bottom: 5px;
+padding-top: 5px;
+
+}
+p{
+  text-align: justify;
+  color: black;
+}
+#test {
+  border: 1px solid black;
+  margin:1px;
+
+}
+.center{
+  text-align: center;
+  color: black;
+ }
+.gris{
+  text-align: center;
+  color: black;
+  background: #EDEFF0;
+  border: 1px solid black;
+  margin:1px;
+}
+
+.col-xs-12{
+  padding-left:5px;
+  padding-right: 5px;
+      }
+
+.blanc{
+  text-align: center;
+  color: black;
+  background: white;
+  border: 1px solid black;
+  margin:1px;
+   }
+
+/* non utilise */
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+.container-profimg{
+  position : absolute;
+}
+
+
+
+
+/* First simple components */
+
+
+
+
+
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-red:hover{
+  background-color: #C61414;
+  color: white;
+}
+
+/* Specific CSS rules */
+
+
+
+#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 80px;
+}
+#movies td{
+  padding: 10px;
+}
+
+/* Fixed sidebar layout */
+
+#content{
+  margin-left: 120px;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+.row{
+
+
+
+}
+/* copiage */
+.share-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.share-link {
+  flex: 0 0 24%;
+  color: white;
+  font-size: 18px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  }
+
+hover {
+    color: white;
+  }
+
+
+
+
+
+.racer_table td.final2 {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
