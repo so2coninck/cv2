@@ -1,5 +1,11 @@
 /* Colors and Fonts */
 /* utile */
+.footer-distributed .footer-left{
+  width: 50%;
+}
+
+
+
 .address{
   font-size:12px;
   color:white;
@@ -23,6 +29,19 @@ h1{
   color: #EDEFF0;
   font-size: 38px;
 }
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer-address{
+  position:center;
+}
+
 .container-fluid{
   width: 100%;
   margin: 30px auto;
@@ -49,7 +68,13 @@ h1{
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   background-size: cover;
 }
-
+.card-footer{
+  background: #384047;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
 .card-image{
   width: 150px;
   height: 150px;
@@ -86,38 +111,9 @@ p{
   text-align: center;
   color: black;
  }
-.gris{
-  text-align: center;
-  color: black;
-  background: #EDEFF0;
-  border: 1px solid black;
-  margin:1px;
-}
-
-.col-xs-12{
-  padding-left:5px;
-  padding-right: 5px;
-      }
-
-.blanc{
-  text-align: center;
-  color: black;
-  background: white;
-  border: 1px solid black;
-  margin:1px;
-   }
 
 /* non utilise */
 
-h2{
-  font-size: 18px;
-  font-weight: 300;
-}
-
-h3{
-  font-size: 16px;
-  font-weight: 300;
-}
 
 a{
   color: black;
@@ -184,35 +180,10 @@ a:hover{
 /* Fixed sidebar layout */
 
 #content{
-  margin-left: 120px;
+  margin-left: 0px;
 }
 
-#sidebar {
-  background-color: #384047;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  width: 120px;
-  text-align: center;
-  color:white;
-}
 
-#sidebar ul {
-  list-style: none;
-  padding-left: 0px;
-}
-
-#sidebar li {
-  margin-top:50px;
-  margin-bottom: 50px;
-}
-
-#sidebar a {
-  text-decoration: none;
-  font-size: 25px;
-  color:white;
-}
 
 /* copiage */
 .share-links {
@@ -234,16 +205,318 @@ hover {
     color: white;
   }
 
+.footer-distributed{
+  background-color: #384047;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: 14px sans-serif;
+
+  margin-bottom: 20px;
+  padding: 20px;
+
+  border-radius: 4px;
+  background-size: cover;
 
 
-
-
-.racer_table td.final2 {
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
-.racer_table td.active {
-  background-repeat: no-repeat;
-  background-size: 100%;
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
 }
+
+/* Footer left */
+
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 50%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #5383d3;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+  margin-top: 40px;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  font:14px/1.5 Arial, Helvetica, sans-serif;
+}
+
+header{
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom:200px;
+}
+
+header h1{
+  font: normal 32px/1.5 'Open Sans', sans-serif;
+  color: #3F71AE;
+  padding-bottom: 16px;
+}
+
+header h2{
+  color: #F05283;
+}
+
+header h2 a{
+  color:inherit;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #F05283;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font: bold 14px/1 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+header h2 a:hover{
+  background-color:#F05283;
+  transition:0.2s;
+  color:#fff;
+}
+
+header ul {
+  max-width: 600px;
+  margin: 60px auto 0;
+}
+
+header ul a{
+  text-decoration: none;
+  color: #FFF;
+  text-align: left;
+  background-color: #B9C1CA;
+  padding: 10px 16px;
+  border-radius: 2px;
+  opacity: 0.8;
+  font-size: 16px;
+  display: inline-block;
+  margin: 4px;
+  line-height: 1;
+  outline: none;
+
+  transition: 0.2s ease;
+}
+
+header ul li a.active{
+  background-color: #66B650;
+  pointer-events: none;
+}
+
+header ul li a:hover {
+  opacity: 1;
+}
+
+header ul{
+  list-style: none;
+  padding: 0;
+}
+
+header ul li{
+  display: inline-block;
+}
+
+
+/* In our demo, the footers are fixed to the bottom of the page */
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height:800px){
+  footer { position: static; }
+  header { padding-top:40px; }
+}
+
