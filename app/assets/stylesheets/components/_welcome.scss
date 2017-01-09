@@ -1,5 +1,12 @@
 /* Colors and Fonts */
 /* utile */
+.address{
+  font-size:12px;
+  color:white;
+  line-height:2;
+  text-align: center;
+}
+
 body{
   background-color: #EDEFF0;
   font-family: 'Open Sans', sans-serif;
@@ -190,6 +197,7 @@ a:hover{
   bottom: 0px;
   width: 120px;
   text-align: center;
+  color:white;
 }
 
 #sidebar ul {
@@ -205,12 +213,9 @@ a:hover{
 #sidebar a {
   text-decoration: none;
   font-size: 25px;
-  color:#788188;
+  color:white;
 }
 
-#sidebar a:hover {
-  color: white;
-}
 .row{
 
 
