@@ -1,8 +1,6 @@
 /* Colors and Fonts */
 /* utile */
-.footer-distributed .footer-left{
-  width: 50%;
-}
+
 
 #telecharger{
 text-align:right;
@@ -216,7 +214,7 @@ hover {
   text-align: left;
   font: 14px sans-serif;
 
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding: 20px;
 
   border-radius: 4px;
@@ -234,7 +232,63 @@ hover {
 }
 
 /* Footer left */
+.footer-distributed .footer-icons{
+  margin-top: 5px;
+}
+.footer-distributed .footer-left{
+  width: 50%;
+}
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
 
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-left{
+  float: left;
+}
+.footer-distributed .footer-left p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-left p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-left i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-left i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
 
 /* The company logo */
 
@@ -316,46 +370,6 @@ hover {
 
 /* Footer Right */
 
-.footer-distributed .footer-right{
-  width: 20%;
-}
-
-.footer-distributed .footer-company-about{
-  line-height: 20px;
-  color:  #92999f;
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.footer-distributed .footer-company-about span{
-  display: block;
-  color:  #ffffff;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons{
-  margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
-  background-color:  #33383b;
-  border-radius: 2px;
-
-  font-size: 50px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-
-  margin-right: 3px;
-  margin-bottom: 5px;
-}
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -378,12 +392,6 @@ hover {
     margin-left: 0;
   }
 
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left{
-  float: left;
 }
 
 /* The company logo */
@@ -421,10 +429,6 @@ hover {
 }
 
 /* Footer social icons */
-
-.footer-distributed .footer-icons{
-  margin-top: 40px;
-}
 
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
