@@ -213,13 +213,9 @@ hover {
   width: 100%;
   text-align: left;
   font: 14px sans-serif;
-
   margin-bottom: 5px;
   padding: 20px;
-
   border-radius: 4px;
-  background-size: cover;
-
 
 }
 
@@ -518,8 +514,7 @@ header ul li{
 /* In our demo, the footers are fixed to the bottom of the page */
 
 footer{
-  position: fixed;
-  bottom: 0;
+   bottom: 0;
 }
 
 @media (max-height:800px){
