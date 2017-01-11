@@ -1,9 +1,7 @@
 /*general*/
 body{
   background-color: #EDEFF0;
-  font:14px/1.5 Arial, Helvetica, sans-serif;
 }
-
 
 h1, h2, h3{
   font-family: 'Montserrat', sans-serif;
@@ -86,7 +84,6 @@ a:hover{
 }
 
   /* menu deroulant*/
-
   /*textes*/
 
 
@@ -112,6 +109,7 @@ a:hover{
   width: 50%;
   float: left;
 }
+
 .footer-distributed .footer-left p{
   display: inline-block;
   color: #ffffff;
@@ -121,6 +119,8 @@ a:hover{
   font-size:14px;
   line-height:2;
 }
+
+
 .footer-distributed .footer-left i{
   background-color:  #33383b;
   color: #ffffff;
@@ -134,12 +134,14 @@ a:hover{
   vertical-align: middle;
 }
 
+
   /*droit*/
 .footer-distributed .footer-right{
   width: 50%;
     display: inline-block;
   vertical-align: top;
 }
+
 .footer-distributed .footer-right p{
   display: inline-block;
   color: #ffffff;
@@ -161,6 +163,7 @@ a:hover{
   margin: 10px 0px;
   vertical-align: middle;
 }
+
 .footer-distributed .footer-right p a{
   color:  #5383d3;
   text-decoration: none;;
@@ -170,9 +173,10 @@ a:hover{
 
 
 
-/* rendre le footer responsive*/
+
 
 @media (max-width: 880px) {
+
   .footer-distributed{
     font: bold 14px sans-serif;
   }
@@ -186,4 +190,3 @@ a:hover{
   }
 
 }
-
