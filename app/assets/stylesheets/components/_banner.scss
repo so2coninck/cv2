@@ -1,0 +1,28 @@
+
+/*banner*/
+ /*bandeau*/
+ .card-banner{/*a revoir*/
+  background: white;
+  padding: 80px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+}
+ /*text*/
+
+ /*image*/
+.card-image{
+  width: 150px;
+  height: 150px;
+  border: 5px solid #EDEFF0;
+  background-image: url("http://www.sophie-courbey-de-coninck.com/assets/photo_profils-a8d952bd11a72258de5cbb2622f4a844bbe5eb0e1c704f42b85730cba8471a4f.png");
+  border-radius: 50%;
+  margin-top: -78px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EDEFF0;
+  background-size: cover;
+  background-position : center center;
+}
+

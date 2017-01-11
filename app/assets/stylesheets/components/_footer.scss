@@ -1,92 +1,3 @@
-/*general*/
-body{
-  background-color: #EDEFF0;
-}
-
-h1, h2, h3{
-  font-family: 'Montserrat', sans-serif;
-}
-h1{
-  color: white;
-  font-size: 38px;
-  font-weight:bold;
-}
-
-h2{
-  color:black;
-  font-size: 25px;
-  font-weight: 300;
-}
-
-p{
-  text-align: justify;
-  color: black;
-}
-
-a{/*a revoir*/
-  color: black;
-  text-decoration: none;
-}
-
-a:hover{
-  color: #DD5555;
-  text-decoration: none;
-}
-
-/*banner & footer*/
-.container-fluid{
-  width: 100%;
-  margin: 30px auto;
-}
-
-#content{
-  margin-left: 0px;
-}
-
-
-/*banner*/
- /*bandeau*/
- .card-banner{/*a revoir*/
-  background: white;
-  padding: 80px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  background-size: cover;
-}
- /*text*/
-
- /*image*/
-.card-image{
-  width: 150px;
-  height: 150px;
-  border: 5px solid #EDEFF0;
-  background-image: url("http://www.sophie-courbey-de-coninck.com/assets/photo_profils-a8d952bd11a72258de5cbb2622f4a844bbe5eb0e1c704f42b85730cba8471a4f.png");
-  border-radius: 50%;
-  margin-top: -78px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #EDEFF0;
-  background-size: cover;
-  background-position : center center;
-}
-
-
- /*body*/
- /*general*/
-
-.card-description{
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-}
-
-  /* menu deroulant*/
-  /*textes*/
-
-
 
 
 
@@ -109,7 +20,6 @@ a:hover{
   width: 50%;
   float: left;
 }
-
 .footer-distributed .footer-left p{
   display: inline-block;
   color: #ffffff;
@@ -119,8 +29,6 @@ a:hover{
   font-size:14px;
   line-height:2;
 }
-
-
 .footer-distributed .footer-left i{
   background-color:  #33383b;
   color: #ffffff;
@@ -134,14 +42,12 @@ a:hover{
   vertical-align: middle;
 }
 
-
   /*droit*/
 .footer-distributed .footer-right{
   width: 50%;
     display: inline-block;
   vertical-align: top;
 }
-
 .footer-distributed .footer-right p{
   display: inline-block;
   color: #ffffff;
@@ -163,7 +69,6 @@ a:hover{
   margin: 10px 0px;
   vertical-align: middle;
 }
-
 .footer-distributed .footer-right p a{
   color:  #5383d3;
   text-decoration: none;;
@@ -173,10 +78,9 @@ a:hover{
 
 
 
-
+/* rendre le footer responsive*/
 
 @media (max-width: 880px) {
-
   .footer-distributed{
     font: bold 14px sans-serif;
   }

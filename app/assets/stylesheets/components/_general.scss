@@ -1,0 +1,64 @@
+/*general*/
+body{
+  background-color: #EDEFF0;
+  font:14px/1.5 Arial, Helvetica, sans-serif;
+}
+
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  color: white;
+  font-size: 38px;
+  font-weight:bold;
+}
+
+h2{
+  color:black;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+p{
+  text-align: justify;
+  color: black;
+}
+
+a{/*a revoir*/
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+/*banner & footer*/
+.container-fluid{
+  width: 100%;
+  margin: 30px auto;
+}
+
+#content{
+  margin-left: 0px;
+}
+
+ /*body*/
+ /*general*/
+
+.card-description{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+  /* menu deroulant*/
+
+  /*textes*/
+
+
+
