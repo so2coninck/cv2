@@ -1,11 +1,7 @@
-
-
-
   /*footer*/
   /*general*/
-.footer-distributed{
+#footer-distributed{
   background-color: #384047;
-  box-sizing: border-box;
   width: 100%;
   text-align: left;
   font: 14px sans-serif;
@@ -15,12 +11,14 @@
 }
 
 
-  /*gauche*/
- .footer-distributed .footer-left{
+  /*droite*/
+ #footer-right{
   width: 50%;
-  float: left;
+  display:inline-block;
+  vertical-align:top;
 }
-.footer-distributed .footer-left p{
+
+#footer-distributed #footer-right p{
   display: inline-block;
   color: #ffffff;
   vertical-align: middle;
@@ -29,35 +27,7 @@
   font-size:14px;
   line-height:2;
 }
-.footer-distributed .footer-left i{
-  background-color:  #33383b;
-  color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
-  vertical-align: middle;
-}
-
-  /*droit*/
-.footer-distributed .footer-right{
-  width: 50%;
-    display: inline-block;
-  vertical-align: top;
-}
-.footer-distributed .footer-right p{
-  display: inline-block;
-  color: #ffffff;
-  vertical-align: middle;
-  margin:0;
-   font-weight: normal;
-  font-size:14px;
-  line-height:2;
-}
-.footer-distributed .footer-right i{
+ #footer-right i{
   background-color:  #33383b;
   color: #ffffff;
   font-size: 25px;
@@ -69,7 +39,37 @@
   margin: 10px 0px;
   vertical-align: middle;
 }
-.footer-distributed .footer-right p a{
+
+  /*gauche*/
+#footer-left{
+  width: 50%;
+  display:inline-block;
+  vertical-align:top;
+  float:left;
+  }
+
+#footer-distributed #footer-left p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+#footer-distributed #footer-left i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 0px;
+  vertical-align: middle;
+}
+#footer-distributed #footer-left p a{
   color:  #5383d3;
   text-decoration: none;;
 }
@@ -81,12 +81,12 @@
 /* rendre le footer responsive*/
 
 @media (max-width: 880px) {
-  .footer-distributed{
+  #footer-distributed{
     font: bold 14px sans-serif;
   }
 
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-right{
+  #footer-distributed #footer-left,
+  #footer-distributed #footer-right{
     display: block;
     width: 100%;
     margin-bottom: 40px;

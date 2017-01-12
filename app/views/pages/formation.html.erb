@@ -1,75 +1,79 @@
+<div id="content">
+  <div class="container-fluid">
+    <%= render "banner"%>
 
-<%= render "banner"%>
-
-<div class="card-description">
-  <ul class="nav nav-pills nav-justified">
-    <li><a href="home">Home</a></li>
-    <li class="active"><a href="education">Education</a></li>
-    <li><a href="experiences">Experiences</a></li>
-    <li><a href="skills">Skills</a></li>
-    <li><a href="languages">Languages</a></li>
-    <li><a href="other_abilities">Other Abilities</a></li>
-  </ul>
-</div>
-
-
-<div class="card-description">
-  <table>
-    <tr>
-      <td class="image"> <%= image_tag("lewagon.png",width: '100', height: '60', alt: 'leWagon Logo',) %></td>
-      <td>
-        <p class="title">2016 :  Le Wagon Brussels Batch #45 </p>
-       </td>
-       </tr>
-       </table>
-        <p class="description">9-week intensive coding bootcamp learning Ruby, HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails. Designed and Implemented a clone of AirBnB and a Rails prototype of the application TRIP-IN www.trip-in.site.</p>
-        <ul>
-          <li><p>- Programming languages: HTML/ CSS, Ruby, JavaScript, jQuery</p></li>
-          <li><p>- Frameworks: Sinatra, Rails</p></li>
-          <li><p>- Knowledge of ActiveRecord, SQL, PostgreSQL, git & Github</p></li>
+      <div class="card-description">
+        <ul class="nav nav-pills nav-justified">
+          <li><a href="home">Home</a></li>
+          <li class="active"><a href="education">Education</a></li>
+          <li><a href="experiences">Experiences</a></li>
+          <li><a href="skills">Skills</a></li>
+          <li><a href="languages">Languages</a></li>
+          <li><a href="other_abilities">Other Abilities</a></li>
         </ul>
+      </div>
 
-</div>
 
-<div class="card-description">
-  <table>
-    <tr>
-      <td class="image"> <%= image_tag("escem.png",width: '100', height: '60', alt: 'escem Logo',) %></td>
-      <td>
-        <p class="title">2003 :  Post Graduate from « Ecole Supérieure de Commerce Et de Management » (ESCEM -  International Business School - Tours-Poitiers / France), </p>
-</td>
-</tr>
-</table>
+      <div class="card-description">
+        <table>
+          <tr>
+            <td class="image"> <%= image_tag("lewagon.png",width: '100', height: '60', alt: 'leWagon Logo',) %>
+            </td>
+            <td>
+              <p class="title">2016 :  Le Wagon Brussels Batch #45 </p>
+            </td>
+          </tr>
+          </table>
+            <p class="description">9-week intensive coding bootcamp learning Ruby, HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails. Designed and Implemented a clone of AirBnB and a Rails prototype of the application TRIP-IN www.trip-in.site.</p>
+          <ul>
+            <li><p>- Programming languages: HTML/ CSS, Ruby, JavaScript, jQuery</p></li>
+            <li><p>- Frameworks: Sinatra, Rails</p></li>
+            <li><p>- Knowledge of ActiveRecord, SQL, PostgreSQL, git & Github</p></li>
+          </ul>
+      </div>
+
+      <div class="card-description">
+        <table>
+          <tr>
+            <td class="image"> <%= image_tag("escem.png",width: '100', height: '60', alt: 'escem Logo',) %>
+            </td>
+            <td>
+              <p class="title">2003 :  Post Graduate from « Ecole Supérieure de Commerce Et de Management » (ESCEM -  International Business School - Tours-Poitiers / France), </p>
+            </td>
+          </tr>
+        </table>
         <p class="description">Specialized in “Logistics -Supply Chain Management ”  (Master’s degree)</p>
         <p>Logistics Management, Supply Chain, Purchasing Management, Information Systems (E-logistics, SAP)</p>
-</div>
+      </div>
 
-<div class="card-description">
-  <table>
-    <tr>
-      <td class="image"> <%= image_tag("bury.png",width: '100', height: '60', alt: 'Bury Sup Logo',) %></td>
-      <td>
-        <p class="title">2000 :  BTS Commerce International : (equivalent bachelor + 2) </p>
-</td>
-</tr>
-</table>
-        <p class="description">Graduate in “International Business” , Paris-France . (French BTS, equivalent to the “National Diploma of Business and Technician Education Concil” -BTEC HND- in UK )</p>
-</div>
+      <div class="card-description">
+        <table>
+          <tr>
+            <td class="image"> <%= image_tag("bury.png",width: '100', height: '60', alt: 'Bury Sup Logo',) %>
+            </td>
+            <td>
+              <p class="title">2000 :  BTS Commerce International : (equivalent bachelor + 2) </p>
+            </td>
+          </tr>
+          </table>
+          <p class="description">Graduate in “International Business” , Paris-France . (French BTS, equivalent to the “National Diploma of Business and Technician Education Concil” -BTEC HND- in UK )</p>
+      </div>
 
 
-<div class="card-description">
-  <table>
-    <tr>
-      <td class="image"> <%= image_tag("ndc.png",width: '100', height: '60', alt: 'Notre Dame de la Compassion Logo',) %></td>
-      <td>
-        <p class="title">1997 :  High School Graduate</p>
-        </td>
-        </tr>
+      <div class="card-description">
+        <table>
+          <tr>
+            <td class="image"> <%= image_tag("ndc.png",width: '100', height: '60', alt: 'Notre Dame de la Compassion Logo',) %></td>
+            <td>
+              <p class="title">1997 :  High School Graduate</p>
+            </td>
+          </tr>
         </table>
         <p class="description">“Trade activity & Communication”, Paris -France</p>
+      </div>
+
+
+    <%=render "footer"%>
+  </div>
 </div>
-
-
-<%=render "footer"%>
-
 

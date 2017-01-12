@@ -1,24 +1,26 @@
-<%= render "banner"%>
-<div class="card-description">
-  <ul class="nav nav-pills nav-justified">
-    <li><a href="home">Home</a></li>
-    <li><a href="education">Education</a></li>
-    <li><a href="experiences">Experiences</a></li>
-    <li><a href="skills">Skills</a></li>
-    <li><a href="languages">Languages</a></li>
-    <li class="active"><a href="other_abilities">Other Abilities</a></li>
-  </ul>
+<div id="content">
+  <div class="container-fluid">
+    <%= render "banner"%>
+      <div class="card-description">
+        <ul class="nav nav-pills nav-justified">
+          <li><a href="home">Home</a></li>
+          <li><a href="education">Education</a></li>
+          <li><a href="experiences">Experiences</a></li>
+          <li><a href="skills">Skills</a></li>
+          <li><a href="languages">Languages</a></li>
+          <li class="active"><a href="other_abilities">Other Abilities</a></li>
+        </ul>
+      </div>
+
+      <div class="card-description">
+        <ul>
+          <li><p>- DIY</p></li>
+          <li><p>- Scrapbooking, paper art...</p></li>
+          <li><p>- Jewelry creation</p></li>
+      </ul>
+      </div>
+
+    <%=render "footer"%>
+  </div>
 </div>
-
-<div class="card-description">
-  <ul>
-    <li><p>- DIY</p></li>
-    <li><p>- Scrapbooking, paper art...</p></li>
-    <li><p>- Jewelry creation</p></li>
-</ul>
-</div>
-
-
-<%=render "footer"%>
-
 
